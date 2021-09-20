@@ -4,7 +4,7 @@ title:  "女的叫啥"
 author: gor
 categories: [ Japanese ]
 tags: [Japanese Wife]
-image: assets/images/Screenshot_2021-09-20-12-50-44-39.png
+image: assets/images/Screenshot_2021-09-20-14-16-08-66.png
 ---
 
 <center>
