@@ -32,8 +32,22 @@ img {
     height:auto;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-weight:700;
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+h4 {
+    font-size: 1em;
+}
+h5 {
+    font-size: .83em;
+}
+h6 {
+    font-size: .67em;
 }
 .site-content {
     padding-top:50px;
@@ -401,9 +415,9 @@ img, img:hover {
     margin-right: auto;
 }
 .posttitle {
-    font-size:10px;
-    font-weight:200;
-    line-height:0.8;
+    font-size:20px;
+    font-weight:700;
+    line-height:1.2;
 }
 .entry-featured-image {  
     width:940px;  
