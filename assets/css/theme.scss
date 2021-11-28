@@ -648,7 +648,11 @@ body.active-side {
 }
 @media (max-width: 768px) {
     .posttitle {
-        font-size:15px;
+        font-size:85px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
     }
     .blog-grid-container {
         grid-template-columns: 1fr;
