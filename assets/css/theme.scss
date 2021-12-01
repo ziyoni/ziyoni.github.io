@@ -28,7 +28,7 @@ a {
     color: darken($primary, 24%);
 }
 img {
-    max-width:100%;
+    width:100%;
 
 }
 
@@ -256,7 +256,7 @@ img, img:hover {
     padding: 0;
     display: flex;
     align-items:center;
-width: 100%;
+
     .author-thumb {
         width:40px;
         border-radius:50%;
@@ -271,7 +271,7 @@ width: 100%;
         }
     }
     .card-title {
-        font-size:8px;
+        font-size:88px;
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
