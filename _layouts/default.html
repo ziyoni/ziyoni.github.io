@@ -16,6 +16,9 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+<link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css"/>
+
+
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -141,6 +144,9 @@
 {% endif %}
 
 <script type='text/javascript'>//<![CDATA[$('.post h2, .post h2 a').each(function(){  var txt=$(this).text().substr(0,50);  var j=txt.lastIndexOf(' ');  if(j>42)     $(this).text(txt.substr(0,j).replace(/[?,!\.-:;]*$/,'...'));});//]]></script>
+
+<script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+<script>/*<![CDATA[*/const players = Array.from(document.querySelectorAll('.js-player')).map(player => new Plyr(player));/*]]>*/</script>
 
 </body>
 </html>
