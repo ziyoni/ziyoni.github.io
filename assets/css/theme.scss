@@ -615,6 +615,19 @@ body.active-side {
     background:#fff;
 }
 
+
+/* Table Box */
+#utb{position: relative;font: normal 12px Arial, Sans-Serif}
+#udltb{list-style:none;height: 30px;margin: 0 !important;padding: 0 !important}
+#udltb li{list-style:none;margin: 0 0 0 2px;float: left;font-weight: 700}
+#udltb li a{display: block;padding: 0 6px;line-height: 30px;text-decoration: none;color: #398BCE;background-color: #ccc}
+#udltb li.active a{background-color: #f3f3f3}
+#udlctn > div{background-color: #f3f3f3;color: #000;padding: 10px 15px;border-bottom: 4px solid #398BCE}
+#udlctn a{color: #398dcc;text-decoration: none;outline: none;transition: all 0.25s}
+#udlctn a:hover{color: #222;text-decoration: none}
+#tab2, #tab3{display:none;}
+
+
 //responsive tweaks
 @media (min-width: 768px) {
     .container, .container-sm, .container-md, .container-lg {
